@@ -1,0 +1,234 @@
+/* --reset some properties-- */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h1{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: arial, serif;
+	font-variant: small-caps;
+}
+
+
+/*this is for large screen means minimum of 992px*/
+@media (min-width: 992px){
+
+	#section1{
+		background-color: grey;
+		border: 1px black solid;
+		width: 31%;
+		float: left;
+		margin-left: 1.5%; 
+		margin-right: 2%;
+		
+	}
+	#section1>h2{
+		background-color: #FFDA9D;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+		
+	}
+
+	#section2{
+		background-color: grey;
+		border: 1px black solid;
+		width: 31%;
+		float: left;
+		margin-right: 2%;
+		
+	}
+	#section2>h2{
+
+		background-color: #E88055;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+		
+	}
+
+	#section3{
+		background-color: grey;
+		border: 1px black solid;
+		width: 31%;
+		float: left;
+		margin-right: 1.5%;
+	}
+
+	#section3>h2{
+		background-color: #0CE89B;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+		
+	}
+
+	p{
+		clear: both;
+		font-family: Georgia;
+		margin: 15px 10px 20px 10px;
+	}
+
+}
+
+/*this is for small devices such laptop 13" inch, etc...*/
+@media (min-width: 768px) and (max-width: 991px){
+
+	#section1{
+		background-color: grey;
+		border: 1px black solid;
+		width: 47%;
+		float: left;
+		margin-left: 1.4%; 
+		margin-right: 2%;
+	}
+
+	#section1>h2
+	{
+		background-color: purple;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	
+	#section2
+	{
+		background-color: grey;
+		border: 1px black solid;
+		width: 47%;
+		float: left;
+		margin-left: 1.4%;
+		margin-bottom: 20px;
+	}
+
+	#section2>h2{
+
+		background-color: red;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	
+	
+	#section3{
+		clear: both;
+		background-color: grey;
+		border: 1px black solid;
+		width: 97.4%;
+		margin-left: 1.4%;
+	}
+
+	#section3>h2{
+		background-color: green;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+
+	
+	p{
+		clear: both;
+		margin: 15px 10px 20px 10px;
+		font-family: sans-serif;
+	}
+
+}
+
+
+/*this is extra small device mobile, tablet, etc..*/
+@media (max-width: 767px){
+	
+	#section1{
+		background-color: grey;
+		border: 1px black solid;
+		width: 96%;
+		margin-left: 2%;
+		margin-bottom: 20px;
+	}
+
+	#section1>h2
+	{
+		background-color: brown;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	
+	#section2
+	{
+		background-color: grey;
+		border: 1px black solid;
+		width: 96%;
+		margin-left: 2%;
+		margin-bottom: 20px;
+		
+	}
+
+	#section2>h2{
+		background-color: lightblue;
+		border: 1px black solid;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+	
+	
+	#section3{	
+		background-color: grey;
+		border: 1px black solid;
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	#section3>h2{
+		background-color: black;
+		border: 1px black solid;
+		color: white;
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+
+	
+	p{
+		clear: both;
+		margin: 15px 10px 20px 10px;
+		font-family: Helvetica;
+	}
+
+}
